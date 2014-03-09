@@ -1,1 +1,12 @@
-Welcome
+Install chef-client on your linux box and configure it to work with the chef server that hosted by the community (opscode).
+
+Write a simple bash script that writes current time to /tmp/xxx.log.
+
+Create new cookbook and add the script to the cookbook as a template. Upload the cookbook every change...
+
+Write a recipe that copies (if not exist already) the script to your box and replacing the xxx (in the /tmp/xxx.log) by the hostname of your linux box.
+The recipe should execute the script every run.
+
+The cookbook files (including the script) should be pushed into a new repository (by your choice) in github.com (using git).
+
+* If possible please use Debian 6 as your (probably virtual) linux box.
